@@ -66,7 +66,11 @@ export default function AdventureWorks() {
         </div>
 
         <div className={`tabs-content ${activeTab === "requirements" ? "visible" : "hidden"}`}>
-          <div className="card">
+          <div className="card" onMouseMove={handleMouseMove}
+            style={{
+              "--x": `${mousePosition.x}px`,
+              "--y": `${mousePosition.y}px`,
+            }}>
             <div className="card-header">
               <h2 className="card-title">Business Requirements & User Stories</h2>
             </div>
@@ -96,7 +100,11 @@ export default function AdventureWorks() {
         </div>
 
         <div className={`tabs-content ${activeTab === "data" ? "visible" : "hidden"}`}>
-          <div className="card">
+          <div className="card" onMouseMove={handleMouseMove}
+            style={{
+              "--x": `${mousePosition.x}px`,
+              "--y": `${mousePosition.y}px`,
+            }}>
             <div className="card-header">
               <h2 className="card-title">Data Cleansing & Transformation (SQL)</h2>
             </div>
@@ -125,16 +133,22 @@ WHERE
         </div>
 
         <div className={`tabs-content ${activeTab === "visualizations" ? "visible" : "hidden"}`}>
-          <div className="card">
+          <div className="card" onMouseMove={handleMouseMove}
+            style={{
+              "--x": `${mousePosition.x}px`,
+              "--y": `${mousePosition.y}px`,
+            }}>
             <div className="card-header">
               <h2 className="card-title">Data Visualizations</h2>
             </div>
             <div className="card-content">
               <div className="image-grid">
-                <img src="/placeholder.svg" alt="Sales Overview Dashboard" className="image"/>
-                <img src="/placeholder.svg" alt="Sales by Region Map" className="image"/>
-                <img src="/placeholder.svg" alt="Product Performance Chart" className="image"/>
-                <img src="/placeholder.svg" alt="Customer Segmentation" className="image"/>
+              <iframe
+              className='responsive-iframe'
+      title="Sales Report_Finished"
+      src="https://app.powerbi.com/view?r=eyJrIjoiNTk3OTI1MjMtODNmYi00M2VhLWEyZDUtNmMyNmE0MzczZGYxIiwidCI6ImMyNzg3OTIyLTExZDktNGNhOC1hYWRmLTVlZjdmZjMxYTEyNyJ9"
+      allowFullScreen
+    />
               </div>
             </div>
           </div>

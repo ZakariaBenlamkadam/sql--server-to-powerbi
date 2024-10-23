@@ -1,10 +1,11 @@
-import './App.css';
 import AdventureWorks from './Components/AdventureWorks';
+import Portfolio from './Components/Portfolio';
 
 function App() {
   return (
     <div className="App">
-      <AdventureWorks/>
+      
+      <Portfolio/>
     </div>
   );
 }
