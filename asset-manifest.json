@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/sql--server-to-powerbi/adventureworks/static/css/main.18ad9aa0.css",
+    "main.js": "/sql--server-to-powerbi/adventureworks/static/js/main.aa11018d.js",
+    "static/media/segoeuithibd.ttf": "/sql--server-to-powerbi/adventureworks/static/media/segoeuithibd.e6c17ba4d59cc4a076e5.ttf",
+    "static/media/segoeuithis.ttf": "/sql--server-to-powerbi/adventureworks/static/media/segoeuithis.a732fcf595dcf938faef.ttf",
+    "static/media/segoeuithisz.ttf": "/sql--server-to-powerbi/adventureworks/static/media/segoeuithisz.03cdb62ac80c4681304a.ttf",
+    "static/media/segoeuithisi.ttf": "/sql--server-to-powerbi/adventureworks/static/media/segoeuithisi.0e421b2e578f6e7871fa.ttf",
+    "index.html": "/sql--server-to-powerbi/adventureworks/index.html",
+    "main.18ad9aa0.css.map": "/sql--server-to-powerbi/adventureworks/static/css/main.18ad9aa0.css.map",
+    "main.aa11018d.js.map": "/sql--server-to-powerbi/adventureworks/static/js/main.aa11018d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18ad9aa0.css",
+    "static/js/main.aa11018d.js"
+  ]
+}
